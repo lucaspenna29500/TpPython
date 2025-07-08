@@ -50,7 +50,7 @@ while credit < prix_cafe:
 
         if monnaie_restante != 0:
             print("Impossible de rendre la monnaie avec le stock disponible.")
-            print("Transaction annulée, veuillez insérer le montant exact.")
+            print("Transaction annulée.")
             credit = 0.0
         else:
             for p, nb in rendu.items():

@@ -8,6 +8,6 @@ def riz():
             total_grains += grains_case
             grains_case *= 2
 
-    print("\nNombre total de grains de riz sur l'échiquier :", total_grains)
+    print("Nombre total de grains de riz sur l'échiquier :", total_grains)
 
 riz()
